@@ -18,6 +18,7 @@ body{
   border-radius: 8px;
 }
 .calculator .output{
+  min-height: 7vh;
   background-color: rgb(199, 206, 155);
   grid-column: 1/5;
   color: black;
@@ -49,8 +50,15 @@ body{
 }
 .calculator button:last-child{
   background-color: aquamarine;
-  color:blue;
+  color:;
 }
 .calculator button:last-child:hover{
-  background-color: rgb(187, 107, 107);
+  background-color: rgb(36, 8, 160);
+  color: white;
 }
+.calculator button:nth-child(2){
+  background-color: rgb(152, 69, 69);
+}
+
+
+
