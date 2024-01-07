@@ -72,7 +72,7 @@ const calculateResult = () => {
     case '*' :
       evalutedResult = prev * current;
       break;
-    case '/' :
+    case '÷' :
       evalutedResult = prev / current;
       break;
     default:
@@ -129,7 +129,7 @@ decimalBtn.addEventListener('click',()=>appendNumber('.'));
 addBtn.addEventListener('click',()=>selectOperator('+'));
 subtractBtn.addEventListener('click',()=>selectOperator('-'));
 multiplyBtn.addEventListener('click',()=>selectOperator('*'));
-divideBtn.addEventListener('click',()=> selectOperator('/'));
+divideBtn.addEventListener('click',()=> selectOperator('÷'));
 equalBtn.addEventListener('click',() => {
   if(result === ''){
     return;
